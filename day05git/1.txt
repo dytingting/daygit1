@@ -4,10 +4,13 @@ git  分布式管理系统  github  码云
         git config --global user.email ""
 git init 项目初始化
 git status 查看当前项目的状态
-git add . 添加所有文件
+git add . 添加所有文件   git add <file></file>
 git commit -m ”注释“ 提交
-git remote add origin  
+git remote add origin 
+$ git push -u origin master
+
 
 svn  集中式
 本地区  服务区
+
 
