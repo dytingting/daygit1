@@ -3,7 +3,7 @@ var express=require("express")
 var app=express();
 // http.createServer((req,res)=>{})==express()
 app.get("/",(req,res)=>{
-    res.end("首页")
+    res.send("首页")
 })
 // 获取路由动态参数      :必须加
 app.get("/about/:id",(req,res)=>{

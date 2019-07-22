@@ -1,13 +1,24 @@
-git  分布式管理系统  github  码云
+git  分布式管理系统  github  仓库   gitlab  云平台  
+ 码云  （支持svn or  git）     linux
+
 本地区  暂存区  服务区
 校验身份 git config --global user.name ""
         git config --global user.email ""
-git init 项目初始化
+git init 项目初始化   项目中初始时执行一次即可
 git status 查看当前项目的状态
-git add . 添加所有文件   git add <file></file>
+git add . 添加所有文件   git add <file></file>  具体文件名称
 git commit -m ”注释“ 提交
-git remote add origin 
-$ git push -u origin master
+退出-m模式
+esc   再加 ：wq保存
+
+git remote add origin 地址
+$ git push -u origin master  第一次   以后用git push
+git branch  列出所有分支
+git branch -r 列出远端所有分支
+git branch -a 列出本地和远端所有分支
+git branch 分支名称 创建分支但是停留在当前分支
+git checkout 分支名称 切换分支
+git checkout -b 分支名称 创建并切换到当前分支
 
 
 svn  集中式
